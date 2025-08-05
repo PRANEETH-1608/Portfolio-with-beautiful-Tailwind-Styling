@@ -18,7 +18,7 @@ const projects = [
     image: "/projects/proj-2_1st_image.png",
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/PRANEETH-1608/concept-keep-alive",
   },
 ];
 
