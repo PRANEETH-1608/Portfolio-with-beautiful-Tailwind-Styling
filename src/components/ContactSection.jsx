@@ -59,7 +59,7 @@ export const ContactSection = () => {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    gpraneeth2005@gmail.com
                   </a>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a
-                    href="tel:+918888888888"
+                    href="tel:+919063257253"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +91 8888888888
@@ -97,7 +97,7 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4>Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="www.linkedin.com/in/praneeth-ginjupalli-92bb60292" target="_blank">
                   <Linkedin />
                 </a>
 
@@ -170,7 +170,7 @@ export const ContactSection = () => {
                   "cosmic-button w-full flex items-center gap-3 justify-center"
                 )}
               >
-                {isSubmitting ? "Sending..." : "Sended Message"}
+                {isSubmitting ? "Sending..." : "Message Sended Successfully"}
                 <Send size={15} />
               </button>
             </form>

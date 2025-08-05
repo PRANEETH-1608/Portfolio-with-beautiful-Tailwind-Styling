@@ -6,7 +6,7 @@ const projects = [
     title: "Imagify",
     description: "A beautiful image generator page using React and Tailwind",
     image: "/projects/proj1_1st_image.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "CLIPDROP API","EXPRESS","MONGODB"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -16,7 +16,7 @@ const projects = [
     description:
       "A beautiful image Concept Revision App using React and Tailwind",
     image: "/projects/proj-2_1st_image.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "NODE JS","MONGO DB","ALERT NOTIFICATOINS","CALENDER"],
     demoUrl: "#",
     githubUrl: "https://github.com/PRANEETH-1608/concept-keep-alive",
   },

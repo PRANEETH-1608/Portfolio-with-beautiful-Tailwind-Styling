@@ -15,7 +15,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              Having proper edge on  web development, I trained 
               in creating responsive ,accessible,and performant web applications
               using modern tech
             </p>
@@ -23,7 +23,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               I am passionate about creating elegant solutions to complex
               problems, and I'm constantly leraning new tech and techniques to
-              stay at the forefront o the ever-evolving web landscape
+              stay at the forefront over the ever-evolving web landscape
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
