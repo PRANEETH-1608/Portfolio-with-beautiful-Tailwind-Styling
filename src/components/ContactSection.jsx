@@ -32,7 +32,7 @@ export const ContactSection = () => {
   };
 
   return (
-    <section className="py-24 px-24 relative bg-secondary/30" id="section">
+    <section className="py-24 px-6 md:py-24 md:px-24 relative bg-secondary/30" id="section">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary "> Touch </span>
@@ -110,10 +110,10 @@ export const ContactSection = () => {
 
           <div
             className="bg-card p-8 rounded-lg shadow-xs "
-            onSubmit={handleSubmit}
+            
           >
             <h3 className="text-2xl font-semibold mb-6">Send a message</h3>
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
                   className="block text-sm font-medium mb-2"
@@ -125,6 +125,7 @@ export const ContactSection = () => {
                   type="text"
                   id="name"
                   required
+                  autoComplete="name"
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="HUGO.."
                 />
@@ -170,7 +171,7 @@ export const ContactSection = () => {
                   "cosmic-button w-full flex items-center gap-3 justify-center"
                 )}
               >
-                {isSubmitting ? "Sending..." : "Message Sended Successfully"}
+                {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={15} />
               </button>
             </form>
