@@ -87,7 +87,7 @@ export const ContactSection = () => {
                 </a>
 
                 <a href="#" target="_blank">
-                  <Twitter />
+                  <Mail />
                 </a>
               </div>
             </div>
