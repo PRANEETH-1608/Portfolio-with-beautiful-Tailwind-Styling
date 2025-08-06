@@ -17,7 +17,7 @@ const projects = [
       "A beautiful image Concept Revision App using React and Tailwind",
     image: "/projects/proj-2_1st_image.png",
     tags: ["React", "TailwindCSS", "NODE JS","MONGO DB","ALERT NOTIFICATOINS","CALENDER"],
-    demoUrl: "#",
+    demoUrl: "https://concept-keep-alive.vercel.app/",
     githubUrl: "https://github.com/PRANEETH-1608/concept-keep-alive",
   },
 ];

@@ -13,8 +13,8 @@ export const HeroSection=()=>{
                     <span className="text-gradient ml-2  opacity-0 animate-fade-in-delay-2">{""}Ginjupalli</span>
                 </h1>
 
-                <p className="text-large md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I create stellar web experiences with modern Tech.Speicalizing in front-end development, I build interfaces that are both beautiful and functional .
+                <p className="text-2xl md:text-2xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                    Creating web experiences that are clean, fast, and seriously good-looking.
                 </p>
 
                 <div>

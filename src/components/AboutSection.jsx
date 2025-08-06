@@ -11,13 +11,11 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold ">
-              Passionate Web Developer & Tech Creator{" "}
+              Passionate Web Developer & Tech Explorer{" "}
             </h3>
 
             <p className="text-muted-foreground">
-              Having proper edge on  web development, I trained 
-              in creating responsive ,accessible,and performant web applications
-              using modern tech
+             Building web applications that are sleek, accessible, and optimized for performance.
             </p>
 
             <p className="text-muted-foreground">
@@ -54,7 +52,7 @@ export const AboutSection = () => {
 
                   <p className="text-muted-foreground">
                     Creating responsive Websites and web applications with
-                    modern frameworks
+                    modern frameworks.
                   </p>
                 </div>
               </div>
@@ -66,11 +64,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-white" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Developlment</h4>
+                  <h4 className="font-semibold text-lg">Problem Solving Area </h4>
 
                   <p className="text-muted-foreground ">
-                    Creating responsive Websites and web applications with
-                    modern frameworks
+                   Debugging DSA puzzles to refine my backend instincts and Solving Skills.
                   </p>
                 </div>
               </div>
@@ -82,11 +79,10 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-white" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Developlment</h4>
+                  <h4 className="font-semibold text-lg">Designing</h4>
 
                   <p className="text-muted-foreground">
-                    Creating responsive Websites and web applications with
-                    modern frameworks
+                    Crafting visual experiences that speak to both logic and emotion.
                   </p>
                 </div>
               </div>
