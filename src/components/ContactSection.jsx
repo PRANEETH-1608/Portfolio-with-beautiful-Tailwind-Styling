@@ -32,7 +32,7 @@ export const ContactSection = () => {
   };
 
   return (
-    <section className="py-24 px-6 md:py-24 md:px-24 relative bg-secondary/30" id="section">
+    <section className="py-24 px-6 md:py-24 md:px-24 relative bg-secondary/30" id="contact">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary "> Touch </span>
@@ -80,15 +80,18 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4>Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a href="www.linkedin.com/in/praneeth-ginjupalli-92bb60292" target="_blank">
-                  <Linkedin />
-                </a>
+              <h4 className="underline">Connect With Me</h4>
+              <div className="flex space-x-4 justify-center m-5 text-center font-bold">
 
-                <a href="#" target="_blank">
-                  <Mail />
-                </a>
+                 <div className="p-3 rounded-full bg-primary/10">
+                  <Phone className="h-6 w-6 text-primary" />{" "}
+
+                  
+                </div>
+
+                <p className="mt-3">+91 9063257253</p>
+
+
               </div>
             </div>
           </div>

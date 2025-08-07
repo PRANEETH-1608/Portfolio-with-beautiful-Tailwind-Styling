@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/proj1_1st_image.png",
     tags: ["React", "TailwindCSS", "CLIPDROP API","EXPRESS","MONGODB"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/PRANEETH-1608/imagify",
   },
   {
     id: 2,

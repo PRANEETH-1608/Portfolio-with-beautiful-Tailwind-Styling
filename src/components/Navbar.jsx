@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Menu,X } from "lucide-react";
 
 const navItems = [
-  { name: "Home", href: "#hero" },
+  { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
@@ -48,7 +48,7 @@ export const Navbar = () => {
             <a
               href={item.href}
               key={key}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-foreground/80 hover:text-primary transition-colors duration-300 backdrop-blur-3xl"
             >
               {item.name}
             </a>

@@ -31,7 +31,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://resume.tiiny.site" target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transtion-colors duration-300"
               >
                 {" "}
