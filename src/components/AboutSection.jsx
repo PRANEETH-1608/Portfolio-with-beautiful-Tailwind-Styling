@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { BrainCircuit, Briefcase, Code, Crop, MonitorSmartphone, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -61,7 +61,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4 ">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-white" />
+                  <BrainCircuit className="h-6 w-6 text-white" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Problem Solving Area </h4>
@@ -76,7 +76,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4 ">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-white" />
+                  <Crop className="h-6 w-6 text-white" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Designing</h4>
